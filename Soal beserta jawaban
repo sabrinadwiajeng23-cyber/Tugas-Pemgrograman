@@ -1,0 +1,46 @@
+Jawab Pertanyaan Berikut 
+1. Apa fungsi deklarasi <!DOCTYPE html> pada dokumen HTML? 
+2. Apa perbedaan antara tag, elemen, dan atribut pada HTML? 
+3. Apa perbedaan <p> dengan <br>? Jelaskan penggunaannya. 
+4. Apa fungsi atribut href pada tag <a>? 
+5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal? 
+6. Apa fungsi atribut src dan alt pada tag <img>? 
+7. Apa perbedaan penggunaan <ul> dan <ol>? 
+8. Apa yang terjadi jika path gambar pada atribut src salah? 
+9. Mengapa struktur heading h1 sampai h6 perlu digunakan secara terstruktur? 
+10. Apa fungsi komentar <!-- ... --> dalam kode HTML?
+
+
+
+
+JAWABAN PERTANYAAN BERIKUT
+
+1. Fungsi deklarasi <!DOCTYPE html>
+Deklarasi ini memberi tahu browser bahwa dokumen menggunakan HTML5 dan membantu browser merender halaman dalam mode standar (standards mode), bukan mode quirks yang dapat membuat tampilan berbeda antar-browser.
+
+2. Perbedaan tag, elemen, dan atribut
+Tag adalah penanda pembuka atau penutup dalam kurung sudut, misalnya <p> dan </p>. Elemen mencakup tag pembuka, isi, dan tag penutup; contohnya <p>Halo dunia</p>. Atribut memberi informasi tambahan di tag pembuka, misalnya href pada <a href="halaman.html">.
+
+3. Perbedaan <br> dan <p>
+<br> membuat pindah baris tanpa memulai paragraf baru, sehingga cocok untuk alamat atau puisi. <p> membungkus sebuah paragraf dan biasanya memiliki jarak atas-bawah dari browser.
+
+4. Fungsi atribut href
+Atribut href pada elemen <a> menentukan tujuan tautan. Tujuannya dapat berupa URL, file lokal, bagian tertentu di halaman, atau alamat email.
+
+5. Perbedaan hyperlink internal dan eksternal
+Hyperlink internal menuju halaman dalam website yang sama dan sering memakai path relatif, misalnya href="tentang.html". Hyperlink eksternal menuju website lain, misalnya href="https://www.google.com".
+
+6. Fungsi atribut src dan alt
+Atribut src pada <img> menentukan lokasi file gambar. Atribut alt menyediakan teks alternatif jika gambar tidak dapat dimuat dan membantu pengguna screen reader memahami gambar.
+
+7. Perbedaan <ul> dan <ol>
+<ul> membuat daftar tanpa urutan penting, biasanya dengan bullet. <ol> membuat daftar berurutan, biasanya dengan nomor, seperti langkah-langkah instruksi.
+
+8. Jika path gambar pada src salah
+Gambar tidak akan tampil dan browser dapat menampilkan ikon gambar rusak. Jika atribut alt tersedia, teks alternatifnya dapat ditampilkan sebagai pengganti.
+
+9. Pentingnya struktur heading h1–h6
+Heading membentuk hierarki isi halaman. Urutan yang logis, dimulai dari judul utama lalu subbagian tanpa melompat sembarangan, memudahkan pembaca mengikuti isi, membantu mesin pencari memahami struktur, dan memudahkan navigasi dengan screen reader.
+
+10. Fungsi komentar dalam HTML
+Komentar ditulis seperti <!-- teks komentar --> dan tidak ditampilkan di halaman. Komentar berguna untuk catatan developer atau menonaktifkan sementara bagian kode.

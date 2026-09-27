@@ -1,53 +1,102 @@
-Profil Mahasiswa
+<!DOCTYPE html> 
+<html lang="id"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title> 
+</head> 
+<body> 
 
-Website profil sederhana yang dibuat menggunakan HTML murni sebagai bagian dari tugas belajar dasar-dasar pengembangan web.
+    <header>
+        <nav> 
+            <a href="index.html">Beranda</a> | 
+            <a href="halaman2.html">Halaman 2</a> 
+        </nav> 
+        <hr>
+    </header>
 
-📄 Deskripsi
+    <main>
+         <img src="image/LOGO_UPB.jpg" width="200" alt="Foto profil mahasiswa"> 
 
-Halaman ini menampilkan profil seorang mahasiswa Teknik Informatika, lengkap dengan data diri, daftar keahlian, target belajar, serta rangkuman materi dasar-dasar HTML yang telah dipelajari.
+        <h1>Profil Mahasiswa</h1> 
 
+        <img src="image/WhatsApp Image 2026-09-27 at 11.30.25.jpeg" width="200" alt="Foto profil mahasiswa"> 
 
+        <section>
+            <h2>Data Diri</h2>
+            <p><strong>Nama:</strong> Sabrina Dwi Ajeng</p> 
+            <p><strong>NIM:</strong> 312510308</p> 
+            <p><strong>Program Studi:</strong> Teknik Informatika</p> 
+            <p>
+                Saya sedang mempelajari dasar-dasar pengembangan 
+                aplikasi web menggunakan HTML. 
+            </p> 
+        </section>
 
-<img width="1112" height="375" alt="Cuplikan layar 2026-09-27 100226" src="https://github.com/user-attachments/assets/60ef2682-08be-4f1d-a7b2-eb1a6d44fb13" />
+        <section>
+            <h2>Keahlian</h2> 
+            <ul> 
+                <li>HTML</li> 
+                <li>CSS</li> 
+                <li>JavaScript</li> 
+            </ul> 
+        </section>
 
+        <section>
+            <h2>Target Belajar</h2> 
+            <ol> 
+                <li>Menguasai HTML</li> 
+                <li>Menguasai CSS</li> 
+                <li>Menguasai JavaScript</li> 
+            </ol> 
+        </section>
 
-Logo universitas dan foto profil mahasiswa
-Bagian Data Diri (nama, NIM, program studi)
-Daftar Keahlian menggunakan unordered list (<ul>)
-Daftar Target Belajar menggunakan ordered list (<ol>)
-Rangkuman Dasar-Dasar HTML dalam bentuk daftar bernomor bertingkat
-🛠️ Teknologi yang Digunakan
-HTML5 — struktur dan konten halaman
-Meta viewport untuk tampilan responsif dasar
-📁 Struktur Folder
-├── index.html
-├── halaman2.html
-├── gambar/
-│   ├── Logo-Universitas-Pelita-Bangsa-removebg-preview.png
-│   └── gambar_1.jpeg
-└── README.md
+        <section>
+            <h2>Dasar-Dasar HTML</h2>
+            <ol>
+                <li>
+                    <h3>Fungsi deklarasi <code>&lt;!DOCTYPE html&gt;</code></h3>
+                    <p>Deklarasi ini memberi tahu browser bahwa dokumen menggunakan HTML5 dan membantu browser merender halaman dalam mode standar (standards mode), bukan mode quirks yang dapat membuat tampilan berbeda antar-browser.</p>
+                </li>
+                <li>
+                    <h3>Perbedaan tag, elemen, dan atribut</h3>
+                    <p><strong>Tag</strong> adalah penanda pembuka atau penutup dalam kurung sudut, misalnya <code>&lt;p&gt;</code> dan <code>&lt;/p&gt;</code>. <strong>Elemen</strong> mencakup tag pembuka, isi, dan tag penutup; contohnya <code>&lt;p&gt;Halo dunia&lt;/p&gt;</code>. <strong>Atribut</strong> memberi informasi tambahan di tag pembuka, misalnya <code>href</code> pada <code>&lt;a href="halaman.html"&gt;</code>.</p>
+                </li>
+                <li>
+                    <h3>Perbedaan <code>&lt;br&gt;</code> dan <code>&lt;p&gt;</code></h3>
+                    <p><code>&lt;br&gt;</code> membuat pindah baris tanpa memulai paragraf baru, sehingga cocok untuk alamat atau puisi. <code>&lt;p&gt;</code> membungkus sebuah paragraf dan biasanya memiliki jarak atas-bawah dari browser.</p>
+                </li>
+                <li>
+                    <h3>Fungsi atribut <code>href</code></h3>
+                    <p>Atribut <code>href</code> pada elemen <code>&lt;a&gt;</code> menentukan tujuan tautan. Tujuannya dapat berupa URL, file lokal, bagian tertentu di halaman, atau alamat email.</p>
+                </li>
+                <li>
+                    <h3>Perbedaan hyperlink internal dan eksternal</h3>
+                    <p>Hyperlink <strong>internal</strong> menuju halaman dalam website yang sama dan sering memakai path relatif, misalnya <code>href="tentang.html"</code>. Hyperlink <strong>eksternal</strong> menuju website lain, misalnya <code>href="https://www.google.com"</code>.</p>
+                </li>
+                <li>
+                    <h3>Fungsi atribut <code>src</code> dan <code>alt</code></h3>
+                    <p>Atribut <code>src</code> pada <code>&lt;img&gt;</code> menentukan lokasi file gambar. Atribut <code>alt</code> menyediakan teks alternatif jika gambar tidak dapat dimuat dan membantu pengguna screen reader memahami gambar.</p>
+                </li>
+                <li>
+                    <h3>Perbedaan <code>&lt;ul&gt;</code> dan <code>&lt;ol&gt;</code></h3>
+                    <p><code>&lt;ul&gt;</code> membuat daftar tanpa urutan penting, biasanya dengan bullet. <code>&lt;ol&gt;</code> membuat daftar berurutan, biasanya dengan nomor, seperti langkah-langkah instruksi.</p>
+                </li>
+                <li>
+                    <h3>Jika path gambar pada <code>src</code> salah</h3>
+                    <p>Gambar tidak akan tampil dan browser dapat menampilkan ikon gambar rusak. Jika atribut <code>alt</code> tersedia, teks alternatifnya dapat ditampilkan sebagai pengganti.</p>
+                </li>
+                <li>
+                    <h3>Pentingnya struktur heading <code>h1</code>–<code>h6</code></h3>
+                    <p>Heading membentuk hierarki isi halaman. Urutan yang logis, dimulai dari judul utama lalu subbagian tanpa melompat sembarangan, memudahkan pembaca mengikuti isi, membantu mesin pencari memahami struktur, dan memudahkan navigasi dengan screen reader.</p>
+                </li>
+                <li>
+                    <h3>Fungsi komentar dalam HTML</h3>
+                    <p>Komentar ditulis seperti <code>&lt;!-- teks komentar --&gt;</code> dan tidak ditampilkan di halaman. Komentar berguna untuk catatan developer atau menonaktifkan sementara bagian kode.</p>
+                </li>
+            </ol>
+        </section>
+    </main>
 
-⚠️ Pastikan folder gambar/ beserta isinya diikutsertakan saat meng-clone atau mengunggah repository, karena gambar dipanggil melalui path relatif (src="gambar/..."). Jika folder atau nama file tidak sesuai, gambar tidak akan tampil.
-
-
-
-👤 Informasi Penulis
-Keterangan	Detail
-Nama	Rahsya Alfrendika
-NIM	312510339
-Program Studi	Teknik Informatika
-📚 Tujuan Proyek
-
-Proyek ini dibuat untuk melatih pemahaman dasar HTML, meliputi:
-
-Struktur dokumen HTML (DOCTYPE, head, body)
-Penggunaan tag semantik (header, nav, main, section)
-Elemen teks (h1–h3, p, strong)
-Elemen gambar (img, atribut src dan alt)
-Elemen daftar (ul, ol, li)
-Hyperlink internal antar halaman (a href)
-
-Hasil dari coding
-<img width="1917" height="1142" alt="Cuplikan layar 2026-09-27 100825" src="https://github.com/user-attachments/assets/2442580f-692f-40b0-b6f2-a48d971b68b4" />
-<img width="1917" height="1130" alt="Cuplikan layar 2026-09-27 100840" src="https://github.com/user-attachments/assets/6874b7d0-1801-4a9d-b573-21eceaeb4bdf" />
-<img width="1917" height="1142" alt="Cuplikan layar 2026-09-27 100904" src="https://github.com/user-attachments/assets/f7b283f9-0afe-4587-8e4a-a2987ad69c3b" />
+</body> 
+</html>
